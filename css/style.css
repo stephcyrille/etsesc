@@ -157,7 +157,7 @@
 .row.specialite-on{
     opacity: 1;
     transform: translateY(0);
-    transition: 3.5s;  
+    transition: 1.3s;  
 }
 .bulleSpecia{
     display: block;
