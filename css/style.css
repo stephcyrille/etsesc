@@ -380,7 +380,7 @@ footer p a:hover{
 /* Responsive design */
 @media (max-width: 992px){    
     .nous{
-        padding-left: 100px;
+        padding-bottom: 30px;  
     }
     .nous p{
         font-size: 15px;
@@ -393,8 +393,8 @@ footer p a:hover{
         display: none;
     }
 }
-
-@media (max-width: 767px){
+@media screen and (max-width: 480px){
+    /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
     .navbar{
         padding-top: 0px;
         background-color: #d6a400;
@@ -445,6 +445,8 @@ footer p a:hover{
     #body3{
         display: none;
     }
-    
+    .bonhomme{
+        padding-left: 50px;
+    }
 }
 
