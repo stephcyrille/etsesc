@@ -448,5 +448,8 @@ footer p a:hover{
     .bonhomme{
         padding-left: 50px;
     }
+    .nous p{
+        top: 0;
+    }
 }
 
