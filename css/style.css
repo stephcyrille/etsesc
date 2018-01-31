@@ -1,0 +1,450 @@
+.navbar{
+    padding-top: 60px;
+    background-color: rgba(0,0,0,0);
+    height: 100px;
+    transition: 1.5s;
+    margin-bottom: 50px;
+}
+
+.navbar-inverse{
+    border-color: rgba(0,0,0,0);
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+/*.navbar-inverse .navbar-nav>li>.active {
+    border-bottom: 3px solid #fff;
+    color: #ffc400;
+
+}*/
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffc400;
+    border-bottom: 3px solid #fff;
+    transition: .2s;
+}
+
+.navbar-header{
+    margin-top: 10px;
+}
+.img-site{
+    width: 20%;
+    border: 2px solid rgb(139, 102, 0);
+}
+
+/* Effets Nav Bar scroll */
+.noir{
+    background-color: rgba(211, 137, 0, 0.836);
+    transition: .8s;
+ }
+
+
+
+
+
+
+/* Carousel */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+}
+.carousel-control{
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+    display: inline-block; 
+}
+.carousel-control > span > img {
+    width: 30px;
+    height: 30px;
+    background: #ccc;
+    padding: 3px;
+    color: #000;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+.carousel-control > span > img:hover {
+    background: #666666;
+    transition: background 0.2s liniear 0s;
+    border: 2px solid #fff;
+}
+.carousel-caption{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,00,00,0.5);
+}
+.carousel-caption h2{
+    font-size: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+}.carousel-caption p{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.carousel-caption h2,.carousel-caption p{
+    position: relative;
+    top: 45%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-shadow: none;    
+}
+
+
+
+
+
+
+#body1{
+    background-color: rgba(241, 241, 241, 0.4);
+    background-image: url('../img/bck/3828.jpg');
+}
+#body1 .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+#body1 h1{
+    padding-top: 20px;
+}
+.bonhomme{
+    margin-left: 100px;
+}
+.row.present-on{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 3.5s;  
+}
+
+.nous p{
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    top: 50;
+}
+
+
+#body2{
+    background-image: url('../img/bck/decapage.JPG');
+    padding-bottom: 50px;
+}
+#service{
+    background-color: rgba(211, 137, 0, 0.836);
+    padding-bottom: 50px;
+}
+.text h1{
+    padding-top: 10px;
+    color: beige;
+}
+.row.specialite-off{
+    opacity: 0;
+    transform: translateX(-80%);
+}
+.row.specialite-on{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 3.5s;  
+}
+.bulleSpecia{
+    display: block;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 0;
+}
+.block{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    box-shadow: 2px 2px 5px grey;
+    width: 80%;
+    height: 270px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.548);
+}
+
+.bulleSpecia h3{
+    padding: 13px;
+    background-color: rgb(139, 102, 0);
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    border-bottom: 1px solid grey;
+}
+.bulleSpecia p{
+    padding: 20px 10px 20px 20px;
+    font-size: 18px;
+    color: #000;
+}
+#body2 h1{
+    margin-bottom: 40px;
+}
+
+
+
+#body3{
+    background-image: url("../img/bck/forma.jpg");
+    padding-bottom: 50px;
+}
+#body3 .text h1{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #fff;
+}
+.pere{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.pere .col-md-4{
+    padding: 0;
+    height: 100%;
+    background-color: #d6a400;
+    color: rgb(197, 197, 197)
+}
+.onglet{
+    background-color: #d6a400;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.onglet:hover{
+    cursor: pointer;
+    background-color: rgb(139, 102, 0);
+    color: rgb(231, 231, 231);
+}
+.onglet a{
+    font-size: 20px;
+    color: rgb(231, 231, 231);
+}
+.onglet a:hover{
+    text-decoration: none;
+}
+.onglet a:focus{
+    text-decoration: none;
+}
+
+
+/* Systeme Onglet */
+.tab .active{
+    background-color: rgb(139, 102, 0);
+    color: rgb(235, 235, 235);
+}
+.tab-content{
+    display: none;
+}
+.col-md-8.tab-content.active{
+    display: block;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-align: justify;
+}
+.fade{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.fade.in{
+    opacity: 1;
+}
+
+
+
+
+
+#body4{
+    position: relative;
+    background-image: url('../img/bck/geophysique.JPG');
+}
+#body4 h1{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+#contact{
+    background-color: rgba(14,113,9,0.8);
+    padding-bottom: 50px; 
+}
+
+#address p{
+    font-size: 20px;
+    text-align: center;
+    padding: 50px auto 50px auto;
+    color: #fff;
+    padding-top: 100px;
+}
+.add-fa{
+    padding: 20px 10px 10px 10px;
+}
+/*
+#address img{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+*/
+
+
+#body5{
+    background-image: url('../img/bck/buntu.jpg');
+    background-repeat: no-repeat;
+}
+#wrapper{
+    background-color: rgba(255,255,255,0.4);
+    padding: 30px 0 30px 0;
+}
+#body5 h1{
+    padding: 10px 0 20px 0;
+    text-align: center;
+}
+.row.imgLogo h2{
+    text-align: center;
+}
+.row.imgLogo{
+    margin-bottom: 20px;    
+}
+.row.imgLogo img{
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+}
+#body5 .bout:hover{
+    text-decoration: none;
+}
+#body5 .bout:focus{
+    text-decoration: none;
+}
+#body5 .bout{
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+#body5 .bloc-image img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+
+
+footer{
+    background-color: rgba(0,0,0,0.8);
+}
+
+footer p{
+    padding: 20px 20px 5px 20px;
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(189, 189, 189);
+}
+footer p a{
+    color: rgb(189, 189, 189);
+}
+footer p a:hover{
+    color: #ffc400;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media (max-width: 992px){    
+    .nous{
+        padding-left: 100px;
+    }
+    .nous p{
+        font-size: 15px;
+    }
+
+    .bonhomme{
+        margin-left: 0px;
+    }
+    .row.pere{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar{
+        padding-top: 0px;
+        background-color: #d6a400;
+        height: 80px;
+    }
+    .noir{
+        background-color: rgb(211, 137, 0);
+        transition: 1.8s;
+     }
+     #monMenu{
+         background-color: rgba(211, 137, 0, 0.438);
+     }
+     #monMenu a{
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+     }
+     #monMenu ul li{
+         border-bottom: 1px solid lightgrey;
+     }
+     #monMenu ul li a:hover{
+         border-bottom: 0px solid #fff;
+     }
+    .navbar-inverse .navbar-toggle{
+        border-color: lightgrey;
+    }
+    .navbar-inverse .navbar-toggle:hover{
+        background-color: rgba(211, 211, 211, 0.24);
+    }
+    .navbar-inverse .navbar-toggle:focus{
+        background-color: rgba(211, 211, 211, 0.24);
+    }
+    .navbar-toggle{
+        color: lightgrey;
+    }
+    .nom-site{
+        padding-left: 10px;
+        width: 100%;
+    }
+    .img-site{
+        width: 18%;
+    }
+
+    header{
+        padding-top: 80px;
+    }
+    
+    #body3{
+        display: none;
+    }
+    
+}
+
