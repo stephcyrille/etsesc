@@ -1,0 +1,203 @@
+.navbar{
+    background-color: rgba(0,0,0,0.7);
+    transition: 1.5s;
+}
+
+.navbar-inverse{
+    border-color: rgba(0,0,0,0);
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+.navbar-inverse.navbar-fixed-top.noir .container .collapse.navbar-collapse .nav.navbar-nav.navbar-right li a{
+    color: #685106;
+    transition: 0.7s;
+}
+.navbar-inverse.navbar-fixed-top.noir .container .collapse.navbar-collapse .nav.navbar-nav.navbar-right li a:hover{
+    color: #ffc400;
+    transition: .2s;
+}
+/*.navbar-inverse .navbar-nav>li>.active {
+    border-bottom: 3px solid #fff;
+    color: #ffc400;
+
+}*/
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffc400;
+    transition: .2s;
+}
+
+.navbar-header{
+    margin-top: 10px;
+}
+.img-site{
+    width: 20%;
+    border: 2px solid rgb(139, 102, 0);
+}
+
+/* Effets Nav Bar scroll */
+.noir{
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: .8s;
+    color: #ffc400;
+ }
+
+
+
+
+
+
+
+#body6{
+    background-image: url('../img/bck/mines.jpg');
+    height: 100vh;
+}
+#mines{
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    padding-top: 100px;
+}
+#body6 h1{
+    text-align: center;
+    font-size: 60px;
+}
+.form-control{
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.form-group{
+    padding: 10px 50px 10px 50px; 
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+#sb{
+    display: block;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding: 10px 50px 10px 50px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 17px;
+}
+#sb:hover{
+    background-color: rgba(187, 100, 0, 0.658);
+    color: #fff;
+    transition: 0.9s;
+}
+#sb:focus{
+    background-color: rgba(187, 100, 0, 0);
+    color: #fff;
+    transition: 0.2s;
+    border: 1px solid rgba(187, 100, 0, 0.658);
+    color: rgba(255, 136, 0, 0.979);
+}
+
+
+
+footer{
+    background-color: rgba(0,0,0,0.8);
+}
+
+footer p{
+    padding: 20px 20px 5px 20px;
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(189, 189, 189);
+}
+footer p a{
+    color: rgb(189, 189, 189);
+}
+footer p a:hover{
+    color: #ffc400;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media (max-width: 992px){    
+    .nous{
+        padding-bottom: 30px;  
+    }
+    .nous p{
+        font-size: 15px;
+    }
+
+    .bonhomme{
+        margin-left: 0px;
+    }
+    .row.pere{
+        display: none;
+    }
+}
+@media screen and (max-width: 480px){
+    /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
+    .navbar{
+        padding-top: 0px;
+        background-color: #fff;
+        height: 80px;
+    }
+    .noir{
+        background-color: rgb(255, 255, 255);
+        transition: 1.8s;
+     }
+     #monMenu{
+         background-color: rgba(255, 255, 255, 0.438);
+     }
+     #monMenu a:hover{
+        color: #ffc400;
+     }
+     #monMenu a{
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+        color: #000;
+     }
+     #monMenu ul li{
+         border-bottom: 1px solid lightgrey;
+     }
+    .navbar-inverse .navbar-toggle{
+        border-color: lightgrey;
+    }
+    .navbar-inverse .navbar-toggle:hover{
+        background-color: rgba(211, 211, 211, 0.24);
+    }
+    .navbar-inverse .navbar-toggle:focus{
+        background-color: rgba(211, 211, 211, 0.24);
+    }
+    .navbar-toggle{
+        color: #cf9f0060;
+    }
+    .nom-site{
+        padding-left: 10px;
+        width: 100%;
+    }
+    .img-site{
+        width: 18%;
+    }
+
+    #body6 h1{
+        font-size: 40px;
+    }
+}
+
